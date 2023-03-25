@@ -16,6 +16,7 @@ public class ArrayExercise {
 
     public static void main(String[] args) {
         // Write a Java program that sums the array's values with the following elements: 25, 4, 16, 9, 10.
+        System.out.println("Exercise 1");
         int Array1[] = {25, 4, 16, 9, 10};
         
         int sum = 0;
@@ -25,6 +26,8 @@ public class ArrayExercise {
         System.out.println("Sum of Array1: "+sum);
         
         //Exercise 2: Write a Java program to test if an array contains a specific value. Create an array with five elements.
+        System.out.println();
+        System.out.println("Exercise 2");
         int testVal = 4;
         Arrays.sort(Array1);
         System.out.println("Sorted Array: "+Arrays.toString(Array1));
@@ -45,7 +48,8 @@ public class ArrayExercise {
         else{
             System.out.println("Array 1 has no value of "+testVal);
         }
-        
+        System.out.println();
+        System.out.println("Exercise 3");
         //Exercise 3: Write a Java program that creates an array of 5 integers and prompts the user to enter 5 integer values to fill the array. 
         //The program should then find the sum of all the elements in the array and print the result.
         
